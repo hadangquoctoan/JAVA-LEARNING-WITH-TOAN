@@ -1,44 +1,37 @@
-# Java Core Learning Source
+# Java Core Learning ☕
 
-Đây là repository dùng để lưu trữ các ví dụ và tài liệu học Java Core cơ bản.
+This is a repository for storing basic Java Core lessons, examples, and study materials following professional standards.
 
-## Mục đích
+## 📁 Directory Structure
 
-Repo này được tạo để:
-- ghi lại các bài học Java từ cơ bản đến nâng cao,
-- lưu trữ các ví dụ minh họa về cú pháp Java,
-- hỗ trợ việc ôn tập và thực hành lập trình Java.
+- **`docs/`**: Stores Java study materials, slides, and notes.
+- **`src/`**: Contains all sample source code for learning and practicing, divided into topics:
+  - `01_Basics/`: Basic syntax, variables, data types, loops.
+  - `02_OOP/`: Object-Oriented Programming (Class, Object, Inheritance, Polymorphism).
+  - `03_Advanced/`: Advanced topics (Collections, Exception Handling, Threads).
+- **`projects/`**: Stores mini-projects.
+- **`scratchpad/`**: A scratch environment for quick code testing (ignored on git).
 
-## Cấu trúc thư mục
+## 🚀 How to Run Basic Java Programs
 
-- `Source_Code_Mau/` - các file mã nguồn mẫu để học và thực hành.
-- `Tai_Lieu_Hoc/` - tài liệu học Java.
+If you are using Java on your local machine (without an IDE), you can compile and run using the following commands:
 
-## Nội dung chính
+1. **Compile** the `.java` file into a `.class` file:
+   ```bash
+   javac FileName.java
+   ```
+2. **Run** the `.class` file:
+   ```bash
+   java FileName
+   ```
 
-Các chủ đề có thể được học và thực hành trong repo này bao gồm:
-- Hello World
-- Biến và kiểu dữ liệu
-- Câu lệnh nhập/xuất
-- Định dạng output bằng `printf`
-- Cấu trúc chương trình Java cơ bản
-
-## Cách chạy chương trình Java
-
-Nếu bạn dùng Java trên máy local, có thể biên dịch và chạy bằng các lệnh sau:
-
+Example with the Hello World program:
 ```bash
-javac TenFile.java
-java TenFile
-```
-
-Ví dụ:
-
-```bash
-javac HelloWorld.java
+javac src/01_Basics/HelloWorld.java
+cd src/01_Basics
 java HelloWorld
 ```
 
-## Ghi chú
+## 📝 Notes
 
-Repository này phù hợp cho người mới bắt đầu học Java Core và muốn có một nguồn code minh họa rõ ràng, dễ theo dõi.
+This repository is neatly organized for easy reference, making it perfect for beginners learning Java Core who want a clear and easy-to-follow source of example code.
