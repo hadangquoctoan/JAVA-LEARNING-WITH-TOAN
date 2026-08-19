@@ -3,7 +3,7 @@ public class Logical {
         boolean isLoggedIn = true;
         boolean isAdmin = false;
         System.out.println("Regular user: " + (isLoggedIn && !isAdmin)); //Logical and and Logical not
-        System.out.println("Has access: " + (isLoggedIn || isAdmin));
-        System.out.println("Not logged in: "+ (!isLoggedIn)) ;
+        System.out.println("Has access: " + (isLoggedIn || isAdmin)); //logical or
+        System.out.println("Not logged in: "+ (!isLoggedIn)) ; //logical not
     }   
 }
